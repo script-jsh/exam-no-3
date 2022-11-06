@@ -1,10 +1,12 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Login from './components/pages/Login';
-import Home from '.components/pages/Home';
-import Signup from '.components/pages/Signup';
-import Dashboard from '.components/pages/Dashboard'
-import ProtectedRoute from '.components/pages/Protected';
-import AuthContextProvider from '.components/context/AuthContext'
+import Login from './components/pages/Login.jsx';
+import Home from './components/pages/Home';
+import Signup from './components/pages/Signup';
+import Dashboard from './components/pages/Dashboard'
+import ProtectedRoute from './components/pages/Protected';
+import AuthContextProvider from './components/context/AuthContext'
+
+import './App.css'
 
 
 export default function App() {

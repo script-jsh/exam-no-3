@@ -1,4 +1,4 @@
-import Input from '../components/Input/Input'
+import Input from '../Input/Input'
 import { Link, useNavigate } from 'react-router-dom'
 import { useState } from 'react';
 
@@ -8,7 +8,7 @@ const Signup = () => {
     username: '',
     password: ''
   })
-  const [error, setError] = useState(null);
+//   const [error, setError] = useState(null);
   const navigate = useNavigate()
 
   const handleInputChange = ({ target }) => {
